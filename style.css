@@ -10,12 +10,14 @@ header {
   ul {
     list-style-type: none;
     padding: 16px;
+    text-align: center;
   }
   
   li {
     display: inline;
     padding-left: 4px solid gray;
     padding-right: 4px solid gray;
+    text-align: center;
   }
 }
 
