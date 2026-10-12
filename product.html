@@ -1,32 +1,64 @@
 
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kelompok 2 X-H</title>
-  <link rel="shortcut icon" href="logo.jpeg" type="image/x-icon">
+  <title>Product | Kelompok Quattro</title>
+  <link rel="icon" href="quattro.jpeg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header>
-    <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="design.html">Design</a></li>
-    <li>Product</li>
-  </ul>
+  <header class="site-header">
+    <nav class="glass-nav" aria-label="Navigasi utama">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="design.html">Design</a></li>
+        <li><a href="product.html" aria-current="page">Product</a></li>
+      </ul>
+    </nav>
   </header>
-  <script src="./script.js"></script>
-  <div>
-    <h1>
-      Welcome to Quattro Group's Project
-    </h1>
-    <h2>Product Kami</h2>
-    <p>Disini adalah product product kami!</p>
-  </div>
+
+  <main>
+    <section class="section page-top">
+      <div class="section-head">
+        <h1>Product Kami</h1>
+        <p class="lead">Disini adalah product product kami!</p>
+      </div>
+
+      <div class="grid">
+        <article class="glass-card ticket">
+          <div class="ticket-art" aria-hidden="true">I</div>
+          <div class="ticket-body">
+            <h3>Product 1</h3>
+            <p>Ganti dengan nama dan deskripsi product kalian.</p>
+          </div>
+        </article>
+        <article class="glass-card ticket">
+          <div class="ticket-art" aria-hidden="true">II</div>
+          <div class="ticket-body">
+            <h3>Product 2</h3>
+            <p>Ganti dengan nama dan deskripsi product kalian.</p>
+          </div>
+        </article>
+        <article class="glass-card ticket">
+          <div class="ticket-art" aria-hidden="true">III</div>
+          <div class="ticket-body">
+            <h3>Product 3</h3>
+            <p>Ganti dengan nama dan deskripsi product kalian.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">Kelompok Quattro</footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
