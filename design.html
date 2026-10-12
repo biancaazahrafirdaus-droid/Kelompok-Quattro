@@ -1,31 +1,79 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kelompok 2 X-H</title>
-  <link rel="shortcut icon" href="logo.jpeg" type="image/x-icon">
+  <title>Design | Kelompok Quattro</title>
+  <link rel="icon" href="quattro.jpeg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header>
-    <ul>
-    <li><a href="index.html">Home</a></li>
-    <li>Design</li>
-    <li><a href="product.html">Product</a></li>
-  </ul>
+  <header class="site-header">
+    <nav class="glass-nav" aria-label="Navigasi utama">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="design.html" aria-current="page">Design</a></li>
+        <li><a href="product.html">Product</a></li>
+      </ul>
+    </nav>
   </header>
-  <script src="./script.js"></script>
-  <div>
-    <h1>
-      Welcome to Quattro Group's Project
-    </h1>
-    <h2>Design Kami</h2>
-    <p>Disini adalah isi dari referensi desain yang kami gunakan!</p>
-  </div>
+
+  <main>
+    <section class="section page-top">
+      <div class="section-head">
+        <h1>Design Kami</h1>
+        <p class="lead">Disini adalah isi dari referensi desain yang kami gunakan!</p>
+      </div>
+
+      <div class="grid">
+        <article class="glass-card swatch">
+          <div class="swatch-color" style="background:#5a0f1c"></div>
+          <div class="swatch-info">
+            <h3>Maroon beludru</h3>
+            <p>#5A0F1C, warna tirai dan latar utama.</p>
+          </div>
+        </article>
+        <article class="glass-card swatch">
+          <div class="swatch-color" style="background:#d4a954"></div>
+          <div class="swatch-info">
+            <h3>Emas kuningan</h3>
+            <p>#D4A954, warna bingkai dan aksen.</p>
+          </div>
+        </article>
+        <article class="glass-card swatch">
+          <div class="swatch-color" style="background:#f6ead6"></div>
+          <div class="swatch-info">
+            <h3>Gading</h3>
+            <p>#F6EAD6, warna teks.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="grid">
+        <article class="glass-card">
+          <div class="type-sample">Aa</div>
+          <h3>Bodoni Moda</h3>
+          <p>Dipakai untuk judul, bergaya poster pertunjukan.</p>
+        </article>
+        <article class="glass-card">
+          <div class="type-sample body-face">Aa</div>
+          <h3>Figtree</h3>
+          <p>Dipakai untuk teks isi dan navigasi agar mudah dibaca.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">Kelompok Quattro</footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
